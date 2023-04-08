@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "KeystoneAssessment",
+    "slug": "KeystoneAssessment",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/keystone.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0c0d0c"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.osastop9.KeystoneAssessment"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ec618939-09ad-47d6-8104-0ae5357b2d5e"
+      }
+    }
+  }
+}
